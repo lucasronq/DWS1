@@ -1,0 +1,89 @@
+body{
+    background-color: #FFD1D1;
+}
+.container{
+    background-color: #FFF5E4;
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.color:hover {
+    background-color: #FFE3E1;
+  }
+.color{
+    border: solid 3px;
+}
+h4{
+    background-color: white;
+}
+h2{
+    text-align: center;
+}
+span{
+    background-color: yellow;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.orange{
+    color: orange;
+}
+
+
+.textalign:hover {
+    background-color: #FFE3E1;
+  }
+.textalign{
+    border: solid 3px;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
+.textdecoretion:hover {
+    background-color: #FFE3E1;
+}
+.textdecoretion{
+    border: solid 3px;
+}
+.line{
+    text-decoration: line-through;
+}
+.under{
+    text-decoration: underline;
+}
+
+.texttransform:hover {
+    background-color: #FFE3E1;
+}
+.texttransform{
+    border: solid 3px;
+}
+.umamai{
+    text-transform: capitalize;
+}
+.maius{
+    text-transform: uppercase;
+}
+
+.textident:hover {
+    background-color: #FFE3E1;
+  }
+.textident{
+    border: solid 3px;
+}
+.ex1{
+    text-indent: 50px;
+}
+.ex2{
+    text-indent: 200px;
+}

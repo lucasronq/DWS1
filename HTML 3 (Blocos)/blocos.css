@@ -1,0 +1,51 @@
+.verdeclaro{
+    background-color: lightgreen;
+}
+
+.verde{
+    background-color: green;
+}
+
+.verdeescuro{
+    background-color: darkgreen;
+}
+
+.vermelhoclaro{
+    background-color: #cc1d1d;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.vermelhoescuro{
+    background-color: darkred;
+}
+
+.fundocinza{
+    background-color: lightgrey;
+}
+
+.bordavermelha{
+    background-color: lightblue;
+    border: solid 5px red;
+   
+} 
+.bordavermelha span{
+    font-weight: bold;
+    color: red;
+}
+
+.bordaazul{
+    background-color: lightsalmon;
+    border: solid 5px blue;
+}
+
+.bordaazul span{
+    font-weight: bold;
+    color: blue;
+}
+
+body{
+    font-size: 20px;
+}
