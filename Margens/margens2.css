@@ -1,0 +1,33 @@
+body{
+    background-image: url(bem.jpeg);
+    background-repeat: repeat-y;
+    background-size: 100vw;
+}
+h2{
+    font-family: 'Aboreto', cursive;
+    font-family: 'Give You Glory', cursive;
+}
+
+.borda1{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.borda2{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img1{
+    padding-top: 20px;
+    padding-left: 15px;
+    background-color: aquamarine;
+}
+
+.img2{
+    padding-top: 20px;
+    padding-left: 15px;
+    background-color: rgb(240, 219, 182);
+}
