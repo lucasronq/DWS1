@@ -1,0 +1,15 @@
+.texto1{
+    background-color: rgb(201, 201, 243);
+    border-left-style: solid;
+    border-left-color: rgb(204, 118, 118);
+    border-width: 11px;
+}
+
+.imag{
+    border: 11px dotted purple;
+    padding: 15px;
+
+}
+img{
+    border: 16px double purple;
+}

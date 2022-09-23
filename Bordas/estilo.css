@@ -1,0 +1,23 @@
+.bord1{
+    border: 6px dotted green;
+    background-color: rgb(225, 255, 181);
+    height: 60px;
+}
+
+.bord2{
+    border: 6px double gray;
+    background-color: rgb(172, 172, 172);
+    height: 60px;
+}
+
+.bord3{
+    border: 6px dashed red;
+    background-color:rgb(245, 142, 142);
+    height: 60px;
+}
+
+.bord4{
+    border: 6px solid blue;
+    background-color: rgb(145, 145, 235);
+    height: 60px;
+}
