@@ -1,0 +1,38 @@
+body{
+    background-color: #8BBCCC;
+   
+}
+
+h1{
+    border-bottom: 2vw double black;
+}
+
+span{
+    background-color: #8BBCCC;
+    margin: 1vw;    
+}
+
+.blue{
+    border: 1vw solid black;
+    border-radius: 2vw;
+    background-color: #4C6793;
+    margin-left: 13vw;
+    padding: 2vw;
+    margin-right: 7vw;
+    
+}
+
+.purple{
+    border: 1vw solid black;
+    border-radius: 2vw;
+    background-color: #5C2E7E;
+    margin-top: 2vw;
+    margin-right: 13vw;
+    margin-left: 7vw;
+    padding: 2vw;
+}
+
+.black{
+    background-color: black;
+    height: 2vw;
+}
