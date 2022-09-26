@@ -1,0 +1,23 @@
+.bt1{
+    background-color: green;
+    width: 5vw;
+    height: 5vw;
+    margin: 0.5vw;
+    border: none;
+}
+
+.bt2{
+    background-color: green;
+    width: 15vw;
+    height: 5vw;
+    margin: 0.5vw;
+    border: none;
+}
+
+.bt3{
+    background-color: green;
+    width: 5vw;
+    height: 15vw;
+    margin: 0.5vw;
+    border: none;
+}

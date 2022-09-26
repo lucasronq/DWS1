@@ -1,0 +1,17 @@
+.circulo{
+    border-radius: 50% 50% 50% 50%;
+    border: none;
+    background-color: red;
+    width: 10vw;
+    height: 10vw;
+    margin: 0.5vw;
+}
+
+.quadrado{
+    background-color: green;
+    border: none;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1vw;
+    margin: 0.5vw;
+}
