@@ -1,0 +1,58 @@
+img:hover {
+    opacity: 0.5;
+  }
+
+img{
+    width: 30vw; 
+    height: 15vw;
+}
+
+.op1{
+    opacity: 1.0;
+    background-color: blueviolet;
+    width: 16vw;
+    height: 10vw;
+    border: 1vw solid rgb(100, 8, 185);
+    display: inline;
+    margin: 1vw;
+}
+
+.op8{
+    opacity: 0.8;
+    background-color: blueviolet;
+    width: 16vw;
+    height: 10vw;
+    border: 1vw solid rgb(100, 8, 185);
+    display: inline;
+    margin: 1vw;
+}
+
+.op6{
+    opacity: 0.6;
+    background-color: blueviolet;
+    width: 16vw;
+    height: 10vw;
+    border: 1vw solid rgb(100, 8, 185);
+    display: inline;
+    margin: 1vw;
+}
+
+.op4{
+    opacity: 0.4;
+    background-color: blueviolet;
+    width: 16vw;
+    height: 10vw;
+    border: 1vw solid rgb(100, 8, 185);
+    display: inline;
+    margin: 1vw;
+}
+
+.op2{
+    opacity: 0.2;
+    background-color: blueviolet;
+    width: 16vw;
+    height: 10vw;
+    border: 1vw solid rgb(100, 8, 185);
+    display: inline;
+    margin: 1vw;
+}
