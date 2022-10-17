@@ -30,6 +30,10 @@ button{
     margin: 5px;
 }
 
+.row{
+    width: 600px;
+}
+
 .botoes{
     display: flex;
     justify-content: center;
@@ -37,6 +41,9 @@ button{
     
 .container {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .divfilmes{
@@ -51,6 +58,8 @@ button{
 
 
 .col-25 {
+    display: flex;
+    flex-direction: row-reverse;
     float: left;
     width: 25%;
     margin-top: 6px;
