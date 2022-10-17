@@ -13,12 +13,12 @@
     <div class="container">
         <form action="">
 
-            <label for="name">Nome</label>
+            <label for="name">Nome:</label>
             <input type="text" id="name" value=""> 
             <br>
             <br>
     
-            <label for="email">E-mail</label>
+            <label for="email">E-mail:</label>
             <input type="text" id="name" value=""> 
             <br>
             <br>
@@ -31,16 +31,42 @@
             <option value="audi">Audi</option>
             </select>
 
-            <p><label for="w3review">Observações</label></p>
+            <p><label for="w3review">Observações:</label></p>
             <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
             <br>
+            <br>
 
-            <input type="radio" id="html" name="lang" value="HTML">
-            <label for="hmlt">HTML</label><br>
-            <input type="radio" id="css" name="lang" value="CSS">
-            <label for="css">CSS</label><br>
-            <input type="radio" id="javascript" name="lang" value="JavaScript">
-            <label for="javascript">Java Script</label><br>
+            <div class="alinhar">
+                <p>Selecione sua linguagem:</p>
+                <input type="radio" id="html" name="lang" value="HTML">
+                <label for="hmlt">HTML</label>
+                <br>
+                <input type="radio" id="css" name="lang" value="CSS">
+                <label for="css">CSS</label>
+                <br>
+                <input type="radio" id="javascript" name="lang" value="JavaScript">
+                <label for="javascript">Java Script</label>
+                <br>
+                <br>
+                <br>
+            </div>
+
+            <p>Filmes que eu quero ver quando lançar:</p>
+            <input type="checkbox" id="filme1" name="filme1" value="Pantera">
+            <label for="filme1"> Pantera Negra</label>
+            <br>
+            <input type="checkbox" id="filme2" name="filme2" value="Avatar">
+            <label for="filme2"> Avatar 2</label>
+            <br>
+            <input type="checkbox" id="filme3" name="filme3" value="Velozes">
+            <label for="filme3"> Velozes e Furiosos</label>
+            <br>
+            <input type="checkbox" id="filme4" name="filme4" value="Aquaman">
+            <label for="filme4"> Aquaman</label>
+            <br>
+            <br>
+            <button type="submit" value="Submit">Enviar</button>
+            <button type="reset" value="Reset">Limpar</button>
 
         </form>
     </div>

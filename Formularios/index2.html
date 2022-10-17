@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index2.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Praticando 1 - Formulários HTML</h1>
+
+    <form class="formulario" action="">
+
+
+    <div class="container">
+        <form action="/action_page.php">
+        <div class="row">
+            <div class="col-25">
+            <label for="name">Nome</label>
+            </div>
+            <div class="col-75">
+            <input type="text" id="name" name="firstname" placeholder="Lucas">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+            <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="seu@email.aqui">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+            <label for="country">Marca de carro</label>
+            </div>
+            <div class="col-75">
+            <select id="country" name="country">
+                <option value="fiat">Fiat</option>
+                <option value="ford">Ford</option>
+                <option value="nissan">Nissan</option>
+            </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+            <label for="subject">Observações</label>
+            </div>
+            <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Escreva algo..." style="height:200px"></textarea>
+            </div>
+        </div>      
+        
+
+        <div class="alinhar">
+            <p>Selecione sua linguagem:</p>
+            <input type="radio" id="html" name="lang" value="HTML">
+            <label for="hmlt"><img src="html5.png" alt="html" width="100px"></label>
+            
+            <input type="radio" id="css" name="lang" value="CSS">
+            <label for="css"><img src="css.png" alt="css" width="100px"></label>
+            
+            <input type="radio" id="javascript" name="lang" value="JavaScript">
+            <label for="javascript"><img src="javascript.png" alt="javascript" width="100px"></label>
+        </div>
+
+        <div class="divfilmes">
+            <p>Filmes que eu quero ver quando lançar:</p>
+            <ul>
+                <li>
+                    <input type="checkbox" id="filme1" name="filme1" value="Pantera">
+                    <label for="filme1"> <a href="">Pantera Negra</a></label>
+                 </li>
+                 <li>
+                    <input type="checkbox" id="filme2" name="filme2" value="Avatar">
+                    <label for="filme2"> <a href="">Avatar 2</a></label>
+                </li>
+                <li>
+                    <input type="checkbox" id="filme3" name="filme3" value="Velozes">
+                    <label for="filme3"> <a href="">Velozes e Furiosos</a></label>
+                </li>
+                <li>
+                    <input type="checkbox" id="filme4" name="filme4" value="Aquaman">
+                    <label for="filme4"> <a href="">Aquaman</a></label>
+                </li>
+            </ul>           
+        </div>  
+
+        <div class="botoes">
+            <button type="submit" value="Submit">Enviar</button>
+            <button type="reset" value="Reset">Limpar</button>
+        </div>
+      
+    </form>
+
+</body>
+</html>
