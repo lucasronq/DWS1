@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+  <div class="container-fluid">
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navegação</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="imagens.html">Imagens</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br>
+  
+      <div class="margem">
+          <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nome</label>
+          <input type="name" class="form-control" id="inputname">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Sobrenome</label>
+          <input type="Sobrenome" class="form-control" id="inputsobrenome4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="insira@seuemail">
+        </div>
+        <label for="basic-url" class="form-label">Seu Linkedin</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3">https://www.linkedin.com/</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Envie seu currículo</label>
+          <input class="form-control" type="file" id="formFile">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Av: Pozubom">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Estado</label>
+          <select id="inputState" class="form-select">
+            <option selected>Escolha..</option>
+            <option>MG</option>
+            <option>SP</option>
+            <option>PR</option>
+            <option>BA</option>
+            <option>AM</option>
+            <option>SC</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <label for="inputZip" class="form-label">Telefone</label>
+          <input type="text" required="required" name="text" pattern="[a-zA-Z0-9]+" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Cep</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Data de nascimento</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Fale um pouco sobre você</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Li e aceito os termos de uso
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Não aceito os termos de uso
+            </label>
+          </div>
+          <br>
+          <p>Tenho experiencia em:</p>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+             Html
+            </label>
+            <br>
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Css
+            </label>
+            <br>
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              JavaScript
+            </label>
+          </div>
+        </div>
+          <div class="col-1">
+            <button type="submit" class="btn btn-secondary btn-lg">Enviar</button>
+          </div>
+          <div  class="col-1">
+            <button type="clear" class="btn btn-secondary btn-lg">Limpar</button>
+          </div>
+        </div>
+        
+      </form>
+      </div>
+</body>
+</html>

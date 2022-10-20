@@ -1,0 +1,13 @@
+body{
+    background-color: #9ADCFF;
+    margin: 1vw;
+}
+
+.card{
+    margin: 1vw;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+}

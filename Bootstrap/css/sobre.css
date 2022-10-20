@@ -1,0 +1,32 @@
+body{
+    background-color: #9ADCFF;
+    margin: 1vw;
+}
+
+img{
+    margin-bottom: 2vw;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+}
+
+figcaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5vw;
+    background-color: white;
+    border-radius: 15px;
+    padding: 1vw;
+}
+
+.card{
+    padding: 1vw;
+    border-radius: 15px;
+}
