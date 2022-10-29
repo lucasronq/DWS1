@@ -1,0 +1,7 @@
+.row{
+    margin: 1vw;
+}
+#mult{
+    display: flex;
+    flex-direction: row-reverse;
+}
