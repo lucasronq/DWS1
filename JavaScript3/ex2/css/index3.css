@@ -1,0 +1,38 @@
+tr{
+    margin: 0;
+    display: flex;
+}
+table{
+    display: flex;
+    margin: 5vw;
+    justify-content: flex-end;
+    text-align: center;
+}
+td{
+    width: 15vw;
+    height: 3vw;
+    border: solid 2px;
+}
+*{
+    margin: 0;
+}
+button{
+    width: 9vw;
+    height: 3vw;
+}
+
+.verm{
+    background-color: red;
+}
+.verd{
+    background-color: green;
+}
+.azu{
+    background-color: blue;
+}
+.ama{
+    background-color: yellow;
+}
+.ros{
+    background-color: rgb(223, 18, 206);
+}
