@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index2.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Praticando 2 - JavaScript Parte 3</h1>
+        <h2>Formulario com validações</h2>
+        <p>Dica: <a href="https://getbootstrap.com/docs/5.2/forms/validation/">https://getbootstrap.com/docs/5.2/forms/validation/</a></p>
+    </header>
+
+    <main>
+        <div class="container text-center" >
+            <form class="was-validated">
+                <div class="row g-1">
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="" required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="validationCustom01" value="" required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-1">
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Telefone</label>
+                        <input type="number" class="form-control" id="validationCustom01" value="" required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Marca de carro</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Carros</option>
+                            <option value="1">Nissan</option>
+                            <option value="2">Fiat</option>
+                            <option value="3">BMW</option>
+                        </select>
+                    </div>
+                    </div>
+       
+                <div class="row g-1">
+                    <div class="col-md-8">
+                        <label for="validationTextarea" class="form-label">Obsevações</label>
+                        <textarea class="form-control" id="validationTextarea" placeholder="123..." required></textarea>
+                        <div class="invalid-feedback">
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+<script src="js/index2.js"></script>
+</html>

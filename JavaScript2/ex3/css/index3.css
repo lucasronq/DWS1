@@ -1,0 +1,11 @@
+body{
+    padding: 2vw;
+}
+
+#div1{
+    width: 150px;
+    height: 150px;
+    border: black solid 10px;
+    margin: 1vw;
+    position: absolute;
+}

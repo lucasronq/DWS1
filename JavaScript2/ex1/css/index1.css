@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        #sq-1{
+            width: 150px;
+            height: 150px;
+            border: black solid 1px;
+            margin: 1vw;
+        }
+
+        #sq-2{
+            width: 150px;
+            height: 150px;
+            border: black solid 1px;
+            margin: 1vw;
+
+        }
+
+        #sq-3{
+            width: 150px;
+            height: 150px;
+            border: black solid 1px;
+            margin: 1vw;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Praticando 3 - JavaScript parte 3</h1>
+        <h3>"Mini game JS"</h3>
+        <h4><u>Instruções:</u></h4>
+
+        <ol>
+            <li>Clique em um dos quadrados coloridos</li>
+            <li>Depois use as teclas WASD para movimentar os elementos para cima, esquerda, baixo e direita
+                repectivamente</li>
+            <img src="wasd.jpg" alt="WASD">
+        </ol>
+    </header>
+
+    <main class="row">
+        <div class="row" id="sq-box">
+            <div class="col-1 bg-primary text-white" id="sq-1">.bg-primary</div>
+            <div class="col-1 bg-success text-white" id="sq-2">.bg-success</div>
+            <div class="col-1 bg-danger text-white" id="sq-3">.bg-danger</div>
+        </div>
+    </main>
+</body>
+
+<script>
+
+    let squareBox = document.getElementById("sq-box");
+    for (let i = 1; squareBox.childElementCount >= i; i++) {       
+        let element = document.getElementById(`sq-${i}`);
+        element.onclick = () => {
+            setElementStyle(element)
+            this.onkeydown = (event) => {
+                var k = event.keyCode;
+                movement = {
+                    updown: function () {
+                        var y = parseInt(getComputedStyle(element).top);
+                        if (k == 38 || k == 87) {
+                            y -= 3;
+                        } else if (k == 40 || k == 83) {
+                            y += 3;
+                        }
+                        return y + "px";
+                    },
+
+                    leftright: function () {
+                        var x = parseInt(getComputedStyle(element).left);
+                        if (k == 37 || k == 65) {
+                            x -= 3;
+                        } else if (k == 39 || k == 68) {
+                            x += 3;
+                        }
+                        return x + "px";
+                    }
+                };
+                element.style.top = movement.updown();
+                element.style.left = movement.leftright();
+            }
+        }
+    }
+
+    function setElementStyle(element) {
+        element.style.borderColor = "yellow";
+        element.style.position = "absolute";
+        element.style.left = "50%";
+        element.style.bottom = "50%";
+    }
+
+</script>
+
+</html>
