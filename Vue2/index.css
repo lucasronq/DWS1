@@ -1,0 +1,19 @@
+.container-lg{
+    display: flex;
+}
+
+.dados{
+    width: 40vw;
+    margin: 5vw;
+}
+
+.tabela{
+    width: 40vw;
+    align-items: center;
+    padding-top: 9vw;
+}
+
+.form-floating{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
